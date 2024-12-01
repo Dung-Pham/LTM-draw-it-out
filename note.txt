@@ -1,0 +1,29 @@
+Game LTM
+
+/////BUG////////
+- client out mà ko bấm exist thì không bị xóa khỏi phòng
+- client khác chưa vào phòng thì ko thể tạo client mới
+- Khi client cuối cùng rời room thì sẽ xóa room đó
+
+
+- tạo khung chờ trc khi start game (2 loại)
+    - Chờ đủ người vào (từ 2 người mới bắt đầu đc chơi)
+    - Chờ người tiếp theo chọn từ khóa/ nhấn bắt đầu vẽ
+
+- logic message của answer
+    - phân biệt với trò truyện
+    - xử lý so sánh với keyword
+    - xử lý tính điểm 
+    - xử lý ẩn đáp án của ng trả lời đúng
+        - đối với người khacs thì bị ẩn đi
+        - đối với người trả lời đúng thì sẽ thông báo trả lời đúng và câu trả lời, sau đó ko được trả lời nữa
+
+- logic thời lượng game
+    - khi có người đạt tới 1 ngưỡng điểm xác định thì kết thúc game
+    - Tổng kết game: lấy ra 3 người điểm cao nhất
+
+
+
+const
+
+room.status [OPEN, WAIT, ENABLESTART, STARTED, END]
