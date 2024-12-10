@@ -6,6 +6,8 @@
 2. [Ngô Thị Phương Hoa]
 3. [Nguyễn Hoàng Điệp]
 
+https://github.com/jnp2018/mid-project-227261374
+
 # Đề tài: Trò Chơi Đoán Hình - Multiplayer
 ---
 ## Tổng Quan:
